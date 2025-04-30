@@ -23,8 +23,8 @@ Frontend will run at: `http://localhost:5173`
 ## 🐳 Docker Build
 
 ```bash
-docker build -t rbc-frontend .
-docker run -p 3000:80 rbc-frontend
+docker build -t frontend .
+docker run -p 3000:80 frontend
 ```
 
 ## ⚙️ Vite Configuration
